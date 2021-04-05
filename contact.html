@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-Commerce Farm Template">
+    <meta name="author" content="Wisdom Ojimah">
+    <title>Modern Farm | Contact</title>
+
+    <link rel="icon" href="/assets/img/logo.png">
+
+    <!-- Preload Styles -->
+    <link rel="preload" href="/assets/css/main.css" as="style">
+    <link rel="preload" href="/assets/css/style.css" as="style">
+    <link rel="preload" href="/assets/css/preloader.css" as="style">
+    <link rel="preload" href="/assets/css/fonts.css" as="style">
+    <link rel="preload" href="/assets/icons/css/uicons-regular-rounded.css" as="style">
+    <link rel="preload" href="/assets/icons/fontawesome/css/all.min.css" as="style">
+    <link rel="preload" href="/assets/js/ckeditor.js" as="style">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/assets/css/preloader.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/icons/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="/assets/icons/fontawesome/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Preloader -->
+    <!-- <div class="preloader-container grid">
+        <div class="preloader round relative"></div>
+    </div> -->
+    
+    <div class="container">
+        <div class="contact-container relative grid">
+            <form method="POST">
+                <div class="form-content">
+                    <div class="form-control">
+                        <label class="grid" for="name">
+                            Name
+                        </label>
+                        <input class="contact-form" type="text" name="name" placeholder="Name" id="name" autocomplete="off" required>
+                    </div>
+                    <div class="form-control">
+                        <label class="grid"  for="email">
+                            Email
+                        </label>
+                        <input class="contact-form" type="text" name="email" placeholder="Email address" id="email" autocomplete="off" required>
+                    </div>
+                    <div class="form-control">
+                        <label class="grid"  for="subject">
+                            Subject
+                        </label>
+                        <input class="contact-form" type="text" name="subject" placeholder="Subject" id="subject" autocomplete="off" required>
+                    </div>
+                    <div class="form-control">
+                        <label class="grid"  for="message">
+                            Message
+                        </label>
+                        <textarea class="contact-form" name="message" rows="5" placeholder="Compose message" id="message" required></textarea>
+                    </div>
+                    <div class="form-control">
+                        <button class="contact-form contact-btn" type="submit">
+                            Send Message <i class="fi fi-rr-spinner-alt relative"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!--Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+
+    <!-- Script -->
+    <script src="assets/js/main.js" defer></script>
+
+    <script src="/assets/js/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#message' ), {
+                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
+            } )
+            .then( editor => {
+                window.editor = editor;
+            } )
+            .catch( err => {
+                console.error( err.stack );
+            } );
+    </script>
+
+</body>
+</html>

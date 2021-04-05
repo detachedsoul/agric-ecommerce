@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Luckiest Guy';
+    src: url('/assets/fonts/Luckiest\ Guy.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bitter';
+    src: url('/assets/fonts/Bitter.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('/assets/fonts/Baloo 2.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url('/assets/fonts/Trebuchet MS.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito.ttf') format('truetype');
+    font-display: swap;
+}
