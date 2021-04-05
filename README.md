@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # agric-ecommerce
 Agricultural e-commerce web template
 
